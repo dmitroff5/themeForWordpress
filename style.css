@@ -1,0 +1,304 @@
+/*
+Theme Name: GOST 1R
+Theme URI: http://studio-gost.ru
+Description: Создание блогов портфолио - недорого.
+Version: 1.0
+Author: Студия-ГОСТ
+Author URI: http://studio-gost.ru
+*/
+/*=== СТАРТ СЕКТОРА 1 - Первоначальные стилизация ===*/
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 85%;
+	margin: 0px;
+	padding: 0px;
+	color: #555555;
+}
+#wrapper {
+	width: 960px;
+	margin: 12px auto 20px auto;
+	padding: 0px;
+}
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}
+img.aligncenter, div.aligncenter {
+	display: block;
+	margin: 0 auto;
+}
+img.alignright, div.alignright {
+	margin: 1px 0 2px 10px;
+	display: inline;
+}
+img.alignleft, div.alignleft {
+	margin: 1px 10px 2px 0;
+	display: inline;
+}
+/*=== КОНЕЦ СЕКТОРА 1 - Первоначальные стилизация ===*/
+
+
+/*=== СТАРТ СЕКТОРА 2 - Шапка ===*/
+#header {
+	height: 130px;
+	width: 960px;
+	margin: 0px;
+}
+#header h1 a:link, #header h1 a:visited {
+	text-decoration: none;
+	font-size: 1em;
+	float: left;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: 0px;
+	width: 600px;
+	padding: 1px 0 0 25px;
+	clear: both;
+}
+#header h1 a:hover {
+	text-decoration: underline;
+}
+.description {
+	clear: left;
+	padding: 5px 0 5px 35px;
+}
+#menu{
+	padding: 0;
+	white-space: nowrap;
+	margin: 20px 0 0 0;
+	width: 960px;
+}
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+}
+#menu li {
+	display: inline;
+	list-style-type: none;
+	margin: 0 10px 0 0;
+}
+#menu li a:link, #menu li a:visited {
+	text-decoration: none;
+	padding: 3px;
+}
+#menu li a:hover {
+	text-decoration: underline;
+}
+/*=== КОНЕЦ СЕКТОРА 2 - Шапка ===*/
+
+
+/*=== СТАРТ СЕКТОРА 3 - Контент ===*/
+#main {
+	width: 960px;
+}
+#content {
+	width: 650px;
+	padding: 10px;
+	float: left;
+	line-height: 1.3em;
+}
+#content a:link, #content a:visited {
+	text-decoration: none;
+	padding: 2px;
+}
+#content a:hover {
+	text-decoration: underline;
+}
+#content h1 {
+	font-size: 1.5em;
+}
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;}.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
+.post {
+	padding: 5px;
+	font-size: .9em;
+}
+.post h2 {
+	font-size: 1.8em;
+	margin: 45px 0 10px 0;
+	padding: 0;
+}
+.post h3 {
+  font-size: 1.8em;
+  margin: 0;
+  padding: 0;
+}
+.post-edit-link img{
+	border: none;
+}
+a.post-edit-link:link, a.post-edit-link:visited {
+	text-decoration: none;
+}
+.entry-content, .entry-excerpt {
+	clear: left;
+}
+.entry-content blockquote {
+  font: 1.2em/1.5em Georgia, "Times New Roman", Times, serif;
+  color: #000000;
+  width: 350px;
+  background: url(images/blockquote1.png) no-repeat right bottom;
+  padding: 0 0 0 30px;
+  text-indent: -15px;
+}
+.entry-content blockquote p {
+  background: url(images/blockquote2.png) no-repeat left top;
+  padding: 0 0 0 60px;
+  font: italic 1.5em Georgia, "Times New Roman", Times, serif;
+}
+a.image:link, a.image:visited, a.image:hover {
+	background: none;
+	padding: 0;
+}
+a.image img {
+	border: none;
+}
+.entry-date {
+	height: 89px;
+	width: 71px;
+	display: inline;
+	float: left;
+	margin: 0 10px 0 0;
+	border: 2px solid #000000;
+	color: #000000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.entry-month {
+	font-size: 19px;
+	width: 71px;
+	text-align: center;
+	height: 28px;
+	margin: 7px 0 0 0;
+	font-weight: bold;
+	padding: 0 0 2px 0;
+}
+.entry-day {
+	font-size: 28px;
+	text-align: center;
+	height: 30px;
+	width: 71px;
+	margin: 4px 0 0 0;
+	font-weight: bold;
+	line-height: 30px;
+}
+.navigation {
+  clear: both;
+}
+.entry-meta {
+  margin: 0 0 10px 0;
+}
+.underpost {
+	font-size: .9em;
+}
+.underpost a {
+	text-decoration: underline;
+}
+/*=== КОНЕЦ СЕКТОРА 3 - Контент ===*/
+
+
+/*=== СТАРТ СЕКТОРА 4 - Комментарии ===*/
+.avatar {
+  float: right;
+  margin: 0 0 3px 5px;
+}
+#respond p {
+	font-size: .9em;
+}
+#respond label {
+	display: block;
+	margin: 5px 0 5px 0;
+}
+#comment {	
+	width: 100%;
+}
+.thread-even {
+	background-color:#F9F9F9;
+}
+.thread-odd {
+	background-color:#E5E5E5;
+}
+#commentform {	
+	padding: 10px;
+}
+ol.commentlist {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+ol.commentlist li {
+	margin: 15px 0 0 0;
+}
+ol.commentlist li a {
+	text-decoration: underline;
+}
+/*=== КОНЕЦ СЕКТОРА 4 - Комментарии ===*/
+
+
+/*=== СТАРТ СЕКТОРА 5 - Сид-Бар ===*/
+#sidebar {
+	width: 250px;
+	float: right;
+	margin: 10px 5px 0 0;
+}
+#sidebar h1 {
+	font-size: 1.4em;
+}
+#sidebar h2 {
+	font-size: 1.1em;
+}
+#sidebar ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#sidebar ul ul {
+  margin-left: 10px;
+}
+#sidebar ul ul li, #sidebar ul ul li {
+  font-size: .9em;
+  margin-left: 10px;
+}
+#sidebar li a:link, #sidebar li a:visited {
+	display: block;
+	text-decoration: none;
+	margin-bottom: .1em;
+	padding: 1px;
+}
+#sidebar li a:hover {
+	text-decoration: underline;
+}
+/*=== КОНЕЦ СЕКТОРА 5 - Сид-Бар ===*/
+
+
+/*=== СТАРТ СЕКТОРА 6 - Подвал ===*/
+#footer {
+	height: 42px;
+	clear: both;
+	text-align: center;
+	font-size: 0.8em;
+	padding: 13px 0 0 0;
+}
+#footer a:link, #footer a:visited {
+	color: #474200;
+}
+#footer a:hover {
+	text-decoration: none;
+}
+/*=== КОНЕЦ СЕКТОРА 6 - Подвал ===*/
+
+
+
